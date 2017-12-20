@@ -459,6 +459,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         //view.showsPhysics = true
         self.physicsWorld.contactDelegate = self
         
+        print("Test for github")
         
         self.physicsWorld.gravity = CGVector(dx: 0, dy: 0)
         let field = SKFieldNode.radialGravityField()
